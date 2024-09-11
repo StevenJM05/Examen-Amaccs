@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preguntas Frecuentes - ElectroTech Innovaciones</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 40px auto;
+        }
+        .faq {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .faq h2 {
+            color: #333;
+        }
+        .faq-item {
+            margin-bottom: 20px;
+        }
+        .faq-item h3 {
+            margin: 0;
+            color: #00796b; /* Color para las preguntas */
+            cursor: pointer;
+        }
+        .faq-item p {
+            display: none;
+            font-size: 1em;
+            line-height: 1.6;
+            margin: 10px 0 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ElectroTech Innovaciones</h1>
+        
+    </header>
+
+    <div class="container">
+        <div class="faq">
+            <h2>Preguntas Frecuentes</h2>
+            <div class="faq-item">
+                <h3 onclick="toggleAnswer(this)">¿Cuál es la garantía de los productos?</h3>
+                <p>Todos nuestros productos cuentan con una garantía de 2 años. Para más detalles, consulta la política de garantía en nuestra página web o contacta con nuestro servicio al cliente.</p>
+            </div>
+            <div class="faq-item">
+                <h3 onclick="toggleAnswer(this)">¿Cómo puedo realizar una devolución?</h3>
+                <p>Para realizar una devolución, debes ponerte en contacto con nuestro servicio al cliente dentro de los 30 días posteriores a la compra. Asegúrate de tener el recibo o comprobante de compra.</p>
+            </div>
+            <div class="faq-item">
+                <h3 onclick="toggleAnswer(this)">¿Ofrecen soporte técnico?</h3>
+                <p>Sí, ofrecemos soporte técnico para todos nuestros productos. Puedes contactarnos a través de nuestro formulario de contacto en línea o llamar a nuestro número de soporte.</p>
+            </div>
+            <div class="faq-item">
+                <h3 onclick="toggleAnswer(this)">¿Dónde puedo encontrar más información sobre sus productos?</h3>
+                <p>Puedes encontrar información detallada sobre nuestros productos en nuestra página web, en la sección de productos. También puedes descargar los manuales de usuario y especificaciones técnicas.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>ElectroTech Innovaciones &copy; 2024 - Todos los derechos reservados</p>
+    </footer>
+
+    <script>
+        function toggleAnswer(element) {
+            const answer = element.nextElementSibling;
+            if (answer.style.display === "block") {
+                answer.style.display = "none";
+            } else {
+                answer.style.display = "block";
+            }
+        }
+    </script>
+
+</body>
+</html>
