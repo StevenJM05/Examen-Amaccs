@@ -1,0 +1,19 @@
+/* Estilos para el fondo del hero */
+.hero {
+    height: 100vh;
+    background-image: url('https://img.freepik.com/free-photo/man-with-copy-space-futuristic-device_23-2148864987.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  
+  
