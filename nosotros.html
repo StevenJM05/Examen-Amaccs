@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa de Electrónica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 40px auto;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .card {
+            border-radius: 8px;
+            box-shadow: 0 50px 50px rgba(0, 0, 0, 0.2); /* Más sombra */
+            margin: 20px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        .card h2 {
+            color: #333;
+        }
+        .card p {
+            font-size: 1em;
+            line-height: 1.6;
+        }
+        #mision {
+            background-color: #e0f7fa; /* Color suave para la misión */
+        }
+        #vision {
+            background-color: #e0f7fa; /* Color suave para la visión */
+        }
+        #slogan {
+            background-color: #fce4ec; /* Color suave para el eslogan */
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ElectroTech Innovaciones</h1>
+        <p>¡Tu futuro conectado hoy!</p>
+    </header>
+
+    <div class="container">
+        <div class="card" id="mision">
+            <h2>Misión</h2>
+            <p>Nuestra misión es proporcionar soluciones tecnológicas innovadoras que mejoren la vida de nuestros clientes, integrando los mejores productos electrónicos con un servicio de calidad superior y un enfoque sostenible.</p>
+        </div>
+        <div class="card" id="vision">
+            <h2>Visión</h2>
+            <p>Ser líderes globales en el mercado de la electrónica, reconocidos por nuestra innovación, sostenibilidad y compromiso con el desarrollo de tecnologías que impulsen el progreso y conecten a las personas.</p>
+        </div>
+        <div class="card" id="slogan">
+            <h2>Slogan</h2>
+            <p>"Impulsando el futuro con cada innovación."</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>ElectroTech Innovaciones &copy; 2024 - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
